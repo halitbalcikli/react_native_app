@@ -1,10 +1,17 @@
 import { View, Text, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { LocationMarkerIcon, StarIcon } from 'react-native-heroicons/outline'
+import { useNavigation } from '@react-navigation/native'
 
 const RestaurantCard = (props) => {
+    const navigation = useNavigation();
+
     return (
-        <TouchableOpacity className="bg-white mr-3 shadow">
+        <TouchableOpacity
+            onPress={() => {
+                navigation.navigate('Restaurant', props)
+            }}
+            className="bg-white mr-3 shadow">
             <Image
                 source={{
                     uri: props.imgUrl

@@ -37,7 +37,7 @@ const FeaturedRow = ({ id, title, description }) => {
                     lat={0}
                 />
                 <RestaurantCard
-                    id="123"
+                    id="1235"
                     imgUrl="https://links.papareact.com/gn7"
                     title="Sushi"
                     rating={4.5}
@@ -49,7 +49,7 @@ const FeaturedRow = ({ id, title, description }) => {
                     lat={0}
                 />
                 <RestaurantCard
-                    id="123"
+                    id="1234"
                     imgUrl="https://links.papareact.com/gn7"
                     title="Sushi"
                     rating={4.5}

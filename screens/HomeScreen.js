@@ -48,7 +48,7 @@ const HomeScreen = () => {
                         onChangeText={text => console.log("text", text)} />
                 </View>
 
-                <Icons.AdjustmentsIcon color='#00CCBB' />
+                <Icons.AdjustmentsIcon color='red' />
             </View>
 
             { /*  Body */}
